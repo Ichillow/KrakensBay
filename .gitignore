@@ -1,0 +1,51 @@
+# OS generated files (Windows)
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDE : JetBrains Rider & Visual Studio
+# (UE5 utilise MSBuild/VS en arrière-plan même avec Rider)
+.idea/
+.vs/
+.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Compiled Object files & Libraries (Windows)
+*.obj
+*.pch
+*.dll
+*.lib
+*.exe
+*.out
+
+# UE5 Engine & Project Files
+Binaries/
+Plugins/*/Binaries/
+Intermediate/
+Plugins/*/Intermediate/
+Saved/
+Plugins/*/Saved/
+DerivedDataCache/
+
+# UE5 Zen Store / Packaging
+*.ucas
+*.utoc
+
+# Builds
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# Built data for maps
+*_BuiltData.uasset
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
