@@ -23,7 +23,7 @@ ACanonBall::ACanonBall()
 	CanonBallMesh->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 	Movement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Movement"));
-	Movement->InitialSpeed = 3000.f;
+	Movement->InitialSpeed = 3500.f;
 	Movement->MaxSpeed = 3000.f;
 	Movement->ProjectileGravityScale = 1.f;
 	Movement->bRotationFollowsVelocity = true;
